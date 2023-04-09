@@ -1,95 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Contato</title>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="William N." />
-    <meta
-      name="keyword"
-      content="Dentista, DENTISTA, dentista, tratamentos dentarios, TRATAMENTOS DENTARIOS," />
-    <meta
-      name="Description"
-      content="Especialista em Ortodontia, Implantes, Endodontia, Clareamento, Prótese, Odontopediatria e outros" />
+<html lang="pt-br">
+<head>
+    
+    <title>Dra. Kyria Yamazaki</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"      content="width=device-width, initial-scale=1.0">
+    <meta name="author"        content="William N.">
+    <meta name="keyword"       content="Dentista, DENTISTA, dentista, tratamentos dentarios, TRATAMENTOS DENTARIOS,">
+    <meta name="Description"   content="Especialista em Ortodontia, Implantes, Endodontia, Clareamento, Prótese, Odontopediatria e outros"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link href="../imagens/icons/Medicalwp-Medical-Dentist-blue.16.png" rel="icon" type="image/x-icon">
 
-    <link
-      href="imagens/icons/Martin-Berube-People-Dentist.ico"
-      rel="icon"
-      type="image/x-icon" />
-    <link href="../css/form.css" rel="stylesheet" />
-  </head>
+    <link rel="stylesheet" href="../css/form.css">
+    
+</head>
 
-  <body>
-    <header>
-      <h1>Contato</h1>
-
-      <nav>
+<body>
+    <nav>
         <ul>
-          <li><a href="../index.html">HOME</a></li>
+            <li><a href="../index.html"> Ínicio </a></li>
+            <li><a href="html/contato.html"> Contato </a></li>
         </ul>
-      </nav>
-    </header>
+    </nav>
 
     <main>
       <section id="contato">
-        <h2 id="title"> AGENDE SUA CONSULTA </h2>
-        <aside id="form">
 
-          <form action="https://httpbin.org/post" method="post">
-            
-            <fieldset id="formulario">
-              <legend>Contato</legend>
+        <form action="https://httpbin.org/post" method="post">
+          
+          <fieldset id="formulario">
+            <legend>
+              <h2 id="title"> AGENDE SUA CONSULTA </h2>
+            </legend>
 
-              <p>
-                <label for="nome"> Nome* </label>
-                <input
-                  type="text"
-                  id="nome"
-                  name="nome"
-                  placeholder="Insira seu nome"
-                  required="required" />
-              </p>
-              <p>
-                <label for="email"> Email* </label>
-                <input
-                  type="text"
-                  id="email"
-                  name="email"
-                  placeholder="Insira seu email"
-                  required="required" />
-              </p>
-              <p>
-                <label for="telefone"> Telefone </label>
-                <input
-                  type="text"
-                  id="telefone"
-                  name="telefone"
-                  placeholder="Insira seu telefone" />
-              </p>
+            <p>
+              <label for="nome"> Nome* </label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Insira seu nome"
+                required="required" />
+            </p>
 
-              <p>
-                <label for="assunto"> Assunto </label>
-                <input
-                  type="text"
-                  id="assunto"
-                  name="assunto"
-                  placeholder="Insira o ssunto"
-                  required="required" />
-              </p>
-              <p>
-                <label for="message"> Mensagem </label><br />
-                <textarea
-                  name="message"
-                  id="message"
-                  cols="80"
-                  rows="15"
-                  placeholder="Digíte aqui sua Mensagem"
-                  required="required"></textarea>
-              </p>
-            </fieldset>
-          </form>
-        </aside>
+            <p>
+              <label for="email"> Email* </label>
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Insira seu email"
+                required="required" />
+            </p>
+
+            <p>
+              <label for="telefone"> Telefone </label>
+              <input
+                type="text"
+                id="telefone"
+                name="telefone"
+                placeholder="Insira seu telefone" />
+            </p>
+
+            <p>
+              <label for="assunto"> Assunto* </label>
+              <input
+                type="text"
+                id="assunto"
+                name="assunto"
+                placeholder="Insira o ssunto"
+                required="required" />
+            </p>
+
+            <p>
+              <label for="message"> Mensagem*</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="100"
+                rows="15"
+                placeholder="Digíte aqui sua Mensagem"
+                required="required"></textarea>
+            </p>
+
+            <input type="submit" name="enviar" value="enviar">
+          </fieldset>
+        </form>
       </section>
     </main>
 
